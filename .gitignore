@@ -1,0 +1,15 @@
+# Dataset
+data/
+data/*
+
+# Model checkpoints
+*.pt
+*.h5
+*.npy
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.env/
