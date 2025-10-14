@@ -9,6 +9,7 @@ This project implements the UNet architecture using Pytorch for image segmentati
 - Supports MPS acceleration
 
 ## Project Structure
+```bash
 image-segmentation-unet/
 │
 ├── .vscode/ # Editor settings
@@ -29,7 +30,7 @@ image-segmentation-unet/
 ├── main.py # Entry point to train and evaluate model
 ├── requirements.txt # Dependencies
 └── README.md # Project documentation
-
+```
 ## Set up instructions
 
 ### 1. Clone and navigate
@@ -63,4 +64,5 @@ benjaminwang2025@gmail.com | benjamin.wang.29@dartmouth.edu
 
 ## License
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
 
