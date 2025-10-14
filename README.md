@@ -40,7 +40,7 @@ cd image-segmentation-unet
 ```
 ### 2. Download and save Oxford Pets dataset
 https://www.robots.ox.ac.uk/~vgg/data/pets/
--> save into a director called data
+-> save into a directory called data
 
 ### 3. Create virtual environment
 ```bash
@@ -64,5 +64,6 @@ benjaminwang2025@gmail.com | benjamin.wang.29@dartmouth.edu
 
 ## License
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
 
 
