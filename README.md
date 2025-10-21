@@ -65,5 +65,13 @@ benjaminwang2025@gmail.com | benjamin.wang.29@dartmouth.edu
 ## License
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
+## Author's Notes
+This is my second independently built ML project this year, and it was significantly more challenging than the simple two-layer network I built over the summer. I started by reading several articles about convolutional neural networks, and I gained a solid understanding of how to correctly apply padding, strides, kernel sizes, and transpose convolutions — specifically thanks to an insightful paper I found on [arXiv](https://arxiv.org/pdf/1603.07285).
+
+This project also introduced me to new PyTorch concepts, in particular, working with custom Dataset and DataLoader classes. I also experimented with MPS acceleration and managing device placement for both the model and data.
+
+My biggest takeaway from building this U-Net was the importance of data preprocessing. Since the U-Net architecture requires concatenating skip tensors during the upsampling blocks, I had to ensure that the input data dimensions were perfectly aligned so that the upsampled outputs matched the skip tensor dimensions.
+
+For future projects, I plan to explore areas beyond computer vision — possibly reinforcement learning (RL) or natural language processing (NLP) — to broaden my exposure to different areas of applied machine learning.
 
 
